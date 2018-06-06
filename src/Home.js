@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import { Route, Switch, NavLink } from 'react-router-dom'
 
-import './Contact.css'
+import './Home.css'
 
-class Contact extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="Contact">
-        <p>contact</p>
+      <div className="Home">
+        <p>hellllllllloooooo</p>
       </div>
     );
   }
 }
 
-export default Contact
+export default Home;

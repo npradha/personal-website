@@ -1,0 +1,25 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    background-color: rgb(143, 35, 53);
+    height: 115px;
+    width: 100%;
+    /* padding: px 0; */
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .App-title {
+    font-size: 50px;
+    position: absolute;
+      top: 25%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
+    
+  }
