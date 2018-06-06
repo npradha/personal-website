@@ -29,6 +29,16 @@ class App extends Component {
           <Route path="/experience" component={Experience}/>
           <Route path="/contact" component={Contact}/>>
         </Switch>
+        <div className="footer">
+          <div className="media">
+          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/facebook.png')} alt="facebook"/>
+          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/insta.png')} alt="instagram"/>
+          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/github.png')} alt="github"/>  
+          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/linkedin.png')} alt="linkedin"/> 
+          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/email.png')} alt="email"/> 
+        </div>
+        <div className="divider">Netra Pradhan | netrapradhan.com</div>
+        </div>
       </div>
     )
   }

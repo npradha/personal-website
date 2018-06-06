@@ -8,6 +8,11 @@ class Home extends Component {
     return (
       <div className="Home">
         <p>home</p>
+        <img
+          className="homeNetra"
+          src="src/muralNetra.jpg"
+          alt="Netra"
+        />
       </div>
     );
   }
