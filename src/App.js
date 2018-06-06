@@ -13,14 +13,16 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1 className="App-title">Netra Pradhan</h1>
+          <h1 className="App-title">netra pradhan</h1>
         </div>
-        <ul className="Links">
-          <li><NavLink to="/">Home</NavLink></li>
-          <li><NavLink to="/about">About</NavLink></li>
-          <li><NavLink to="/experience">Experience</NavLink></li>
-          <li><NavLink to="/contact">Contact</NavLink></li>
-        </ul>
+        <div className="links">
+          <ul className="navLinks">
+            <li><NavLink exact to="/">home</NavLink></li>
+            <li><NavLink to="/about">about</NavLink></li>
+            <li><NavLink to="/experience">experience</NavLink></li>
+            <li><NavLink to="/contact">contact</NavLink></li>
+          </ul>
+        </div>
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>

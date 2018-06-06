@@ -7,10 +7,10 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <p>hellllllllloooooo</p>
+        <p>home</p>
       </div>
     );
   }
 }
 
-export default Home;
+export default Home
