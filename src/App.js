@@ -27,17 +27,28 @@ class App extends Component {
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/experience" component={Experience}/>
-          <Route path="/contact" component={Contact}/>>
+          <Route path="/contact" component={Contact}/>
         </Switch>
         <div className="footer">
           <div className="media">
-          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/facebook.png')} alt="facebook"/>
-          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/insta.png')} alt="instagram"/>
-          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/github.png')} alt="github"/>  
-          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/linkedin.png')} alt="linkedin"/> 
-          <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/email.png')} alt="email"/> 
+            <a href={'https://www.facebook.com/netra.pradhan'} target="_blank">
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/facebook.png')} alt="facebook"/>
+            </a>
+            <a href={'https://www.instagram.com/netra_pradhan'} target="_blank">
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/insta.png')} alt="instagram"/>
+            </a>
+            <a href={'https://www.github.com/npradha'} target="_blank">
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/github.png')} alt="github"/>  
+            </a>
+            <a href={'https://www.linkedin.com/in/netra-pradhan-578955148/'} target="_blank">
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/linkedin.png')} alt="linkedin"/> 
+            </a>
+            <NavLink to="/contact">
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/email.png')} alt="email"/> 
+            </NavLink>
         </div>
-        <div className="divider">Netra Pradhan | netrapradhan.com</div>
+        <Route path="/contact" component={Contact}/>
+        <div className="divider">Netra Pradhan | www.netrapradhan.com</div>
         </div>
       </div>
     )
