@@ -13,8 +13,9 @@ class App extends Component {
     return (
       <div className="App">
         <div className="App-header">
-          <h1 className="App-title">netra pradhan</h1>
+          <h1 className="App-title">netra pradhan.</h1>
         </div>
+
         <div className="links">
           <ul className="navLinks">
             <li><NavLink exact to="/">home</NavLink></li>
@@ -23,13 +24,16 @@ class App extends Component {
             <li><NavLink to="/contact">contact</NavLink></li>
           </ul>
         </div>
+
         <Switch>
           <Route exact path="/" component={Home}/>
           <Route path="/about" component={About}/>
           <Route path="/experience" component={Experience}/>
           <Route path="/contact" component={Contact}/>
         </Switch>
+
         <div className="footer">
+
           <div className="media">
             <a href={'https://www.facebook.com/netra.pradhan'} target="_blank">
               <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/facebook.png')} alt="facebook"/>
@@ -46,10 +50,15 @@ class App extends Component {
             <NavLink to="/contact">
               <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/email.png')} alt="email"/> 
             </NavLink>
+           
         </div>
-        <Route path="/contact" component={Contact}/>
+
+        
         <div className="divider">Netra Pradhan | www.netrapradhan.com</div>
+        <Route path="/contact" component={Contact}/>
         </div>
+       
+
       </div>
     )
   }
