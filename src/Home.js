@@ -6,14 +6,18 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-       
-        <img
+       <img
+          className="homeNetra"
+          src={require('//Users/netrapradhan/personalWebsite/personal-website/src/aboutNetra.jpeg')}
+          alt="Netra"
+        />
+        {/* <img
           className="homeNetra"
           src={require('/Users/netrapradhan/personalWebsite/personal-website/src/doorNetra.jpg')}
           alt="Netra"
-        />
-         <p className="greeting">Hello!</p>
-         <div className="aboutContent">
+        /> */}
+         <p className="greeting">Hey there!</p>
+         <div className="homeContent">
             <p> My name is Netra Pradhan and welcome to my website! 
                 I am a sophomore at Purdue University studying Computer 
                 Science. I am passionate about learning and trying new 

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+.About{
+    height: 100%; 
+     padding-bottom: 12%;
+    width: 100%;
+    column-count: 2;
+   
+
+  }
+    .aboutMe{
+      font-size: 65px;
+      font-family: 'Dancing Script', cursive;
+      margin: 8px;
+      font-weight: 600;
+      color: rgb(29,63,82);
+    }
+    .aboutNetra{
+      margin-top: 25px;
+      width: 40%;
+      border: white solid;
+      border-width: 10px;
+    }
+    /* .content{
+      float:right;
+      width: 50%;
+      height: 100%;
+    }
+    .imgNetra{
+      float:left;
+      width:50%;
+      height: 100%;
+    
+     */
+    .aboutContent{
+      height: 200px;
+      width: 50%;
+      margin: auto;
+      font-size: 23px;
+      background-color: rgba(255, 255, 255, 0.795);
+      padding: 1px 10px;
+      color: rgb(29,63,82);
+      border:rgb(191, 192, 199) dotted;
+    }
+    @media (max-width: 915px) {
+      .About{
+        column-count: auto;
+        height:100%;
+        width:100%;
+      }
+      .aboutMe{
+        font-size: 350%;
+        margin-top: 20px;
+
+      }
+    }  

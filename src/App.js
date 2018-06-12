@@ -12,11 +12,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+
         <div className="App-header">
           <h1 className="App-title">netra pradhan.</h1>
         </div>
 
         <div className="links">
+
           <ul className="navLinks">
             <li><NavLink exact to="/">home</NavLink></li>
             <li><NavLink to="/about">about</NavLink></li>

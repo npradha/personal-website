@@ -8,22 +8,22 @@
     font-family: 'Dancing Script', cursive;
     margin: 8px;
     font-weight: 600;
-    color: rgb(36, 46, 66)
+    color: rgb(29,63,82)
   }
   .homeNetra{
     margin-top: 25px;
-    width: 30%;
-    height: 30%;
+    width: 45%;
+    height: 40%;
     border: white solid;
     border-width: 10px;
   }
-  .aboutContent{
+  .homeContent{
     width: 50%;
     margin: auto;
     font-size: 23px;
     background-color: rgba(255, 255, 255, 0.795);
     padding: 1px 10px;
-    color: rgb(36, 46, 66);
+    color: rgb(29,63,82);
     border:rgb(191, 192, 199) dotted;
   }
 
