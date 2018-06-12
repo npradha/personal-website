@@ -10,7 +10,7 @@ class About extends Component {
 
         <img
           className="aboutNetra"
-          src={require('/Users/netrapradhan/personalWebsite/personal-website/src/doorNetra.jpg')}
+          src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/doorNetra.jpg')}
           alt="Netra"
         />
         </div>

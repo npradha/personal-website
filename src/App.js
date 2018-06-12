@@ -38,19 +38,19 @@ class App extends Component {
 
           <div className="media">
             <a href={'https://www.facebook.com/netra.pradhan'} target="_blank">
-              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/facebook.png')} alt="facebook"/>
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/facebook.png')} alt="facebook"/>
             </a>
             <a href={'https://www.instagram.com/netra_pradhan'} target="_blank">
-              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/insta.png')} alt="instagram"/>
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/insta.png')} alt="instagram"/>
             </a>
             <a href={'https://www.github.com/npradha'} target="_blank">
-              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/github.png')} alt="github"/>  
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/github.png')} alt="github"/>  
             </a>
             <a href={'https://www.linkedin.com/in/netra-pradhan-578955148/'} target="_blank">
-              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/linkedin.png')} alt="linkedin"/> 
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/linkedin.png')} alt="linkedin"/> 
             </a>
             <NavLink to="/contact">
-              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/email.png')} alt="email"/> 
+              <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/email.png')} alt="email"/> 
             </NavLink>
            
         </div>

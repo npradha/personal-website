@@ -8,7 +8,7 @@ class Home extends Component {
       <div className="Home">
        <img
           className="homeNetra"
-          src={require('//Users/netrapradhan/personalWebsite/personal-website/src/aboutNetra.jpeg')}
+          src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/aboutNetra.jpeg')}
           alt="Netra"
         />
         {/* <img
