@@ -10,7 +10,8 @@
     .aboutMe{
       font-size: 65px;
       font-family: 'Dancing Script', cursive;
-      margin: 8px;
+      margin-top: 25px;
+      margin-bottom: 8px;
       font-weight: 600;
       color: rgb(29,63,82);
     }
@@ -35,11 +36,11 @@
       height: 200px;
       width: 50%;
       margin: auto;
-      font-size: 23px;
-      background-color: rgba(255, 255, 255, 0.795);
+      /* font-size: 23px;
+      
       padding: 1px 10px;
       color: rgb(29,63,82);
-      border:rgb(191, 192, 199) dotted;
+      border:rgb(191, 192, 199) dotted;  */
     }
     @media (max-width: 915px) {
       .About{
@@ -53,3 +54,27 @@
 
       }
     }  
+    .circle{
+      width: 70px;
+      height: 70px;
+      background-color: rgba(255, 255, 255, 0.795);   
+      border-radius: 50%;
+      border:rgb(191, 192, 199) dotted;
+
+    }
+    .aboutbuttons img{
+      width: 50px;
+      height: 50px;
+      margin: 10px auto;
+     
+    
+    }
+    .aboutbuttons{
+      padding-top: 12%;
+      height: 100%;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      grid-auto-rows: 33%;
+      grid-gap: 20%;
+    }
