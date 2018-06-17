@@ -14,6 +14,7 @@
       margin-bottom: 8px;
       font-weight: 600;
       color: rgb(29,63,82);
+      text-align: center;
     }
     .aboutNetra{
       margin-top: 25px;
@@ -33,9 +34,14 @@
     
      */
     .aboutContent{
-      height: 200px;
-      width: 50%;
-      margin: auto;
+      /* padding-left: 20px; */
+      height: 100%;
+       width: 50%; 
+       margin-left: 10%;
+      
+       /* margin: auto; */
+      /* margin-right: 10%; */
+
       /* font-size: 23px;
       
       padding: 1px 10px;
@@ -55,26 +61,113 @@
       }
     }  
     .circle{
-      width: 70px;
-      height: 70px;
+      width: 95px;
+      height: 95px;
       background-color: rgba(255, 255, 255, 0.795);   
       border-radius: 50%;
       border:rgb(191, 192, 199) dotted;
 
     }
     .aboutbuttons img{
-      width: 50px;
-      height: 50px;
-      margin: 10px auto;
+      width: 75px;
+      height: 75px;
+      margin: 12px auto;
      
     
     }
     .aboutbuttons{
-      padding-top: 12%;
+      /* padding-right: 20%; */
+      padding-top: 5%;
       height: 100%;
       width: 100%;
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-auto-rows: 33%;
       grid-gap: 20%;
+      grid-row-gap: 20px;
+     
+      
     }
+  
+
+
+
+    
+a {
+  color: inherit;
+}
+
+.container {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.interior {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.modal-window {
+  position: fixed;
+  /*background color of entire screen*/
+  background-color: rgba(255, 255, 255, 0.15);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.modal-window:target {
+  /*opacity of popup*/
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-window>div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 2rem;
+  /*background color of modalwindow*/
+  background: #fff;
+  color: #444;
+}
+
+.modal-window header {
+  font-weight: bold;
+}
+
+.modal-close {
+  color: #aaa;
+  line-height: 50px;
+  font-size: 80%;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: #000;
+}
+
+.modal-window h1 {
+  font-size: 150%;
+  margin: 0 0 15px;
+}
