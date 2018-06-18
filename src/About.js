@@ -3,6 +3,12 @@ import React, { Component } from 'react'
 import './About.css'
 
 class About extends Component {
+
+  handleClick = (ev) => {
+    ev.preventDefault()
+    console.log('yeahhhhhh')
+  }
+
   render() {
     return (
       <div className="About">
@@ -16,6 +22,7 @@ class About extends Component {
         </div>
        <div className="content">
         <p className="aboutMe">About Me!</p>
+        <p className="aboutMe2">(Click below)</p>
           <div className="aboutContent">
                 <div className="aboutbuttons">
 
@@ -31,7 +38,7 @@ class About extends Component {
                     </div>
                   </a>
                   <div id="ark" class="popup">
-                    <a href="#arkX" className="close">X</a>
+                    <a href="/about" className="close">X</a>
                     <h2>Arkansas!</h2><hr />
                       <p>Why I love Arkansas</p>
                   </div>
