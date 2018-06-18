@@ -19,221 +19,182 @@ class About extends Component {
           <div className="aboutContent">
                 <div className="aboutbuttons">
 
-                 {/* TECH  */}
-                    <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#open-tech">
-                            <div className="circle">
-                                <img 
-                                  className="tech"
-                                  src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/tech.png')}
-                                  alt='tech'
-                                />
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div id="open-tech" className="modal-window">
-                        <div>
-                          <a href="#close-tech" title="Close" className="modal-close">X</a>
-                            <h1>Tech!</h1><hr />
-                          <div>Why I love tech</div>
-                        </div>
-                      </div>
+                {/* ARKANSAS */}
+                <div className="wrap">
+                  <a className="btn" href="#ark">
+                    <div className="circle">
+                      <img
+                        className="arkansas"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/arkansas.png')} 
+                        alt='arkansas'
+                      />
                     </div>
-                
-                {/* COFFEE */}
-                    <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#coffee">
-                            <div className="circle">
-                              <img
-                                className="coffee"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/coffee.png')} 
-                                alt='coffee'
-                              />
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div id="coffee" className="modal-window">
-                        <div>
-                          <a href="#coffeeX" title="Close" className="modal-close">X</a>
-                            <h1>Coffee!</h1><hr />
-                          <div>Why I love coffee</div>
-                        </div>
-                      </div>
+                  </a>
+                  <div id="ark" class="popup">
+                    <a href="#arkX" className="close">X</a>
+                    <h2>Arkansas!</h2><hr />
+                      <p>Why I love Arkansas</p>
+                  </div>
+                  <a href="#arkX" class="close-popup"></a>
+                </div>
+               
+                {/* TECH  */}
+                <div className="wrap">
+                  <a className="btn" href="#tech">
+                    <div className="circle">
+                      <img
+                        className="tech"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/tech.png')} 
+                        alt='tech'
+                      />
                     </div>
-                
-                {/* FASHION */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#style">
-                            <div className="circle">
-                            <img
-                                className="fashion"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/fashion.png')} 
-                                alt='fashion'
-                                />
-                          </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div id="style" className="modal-window">
-                        <div>
-                          <a href="#styleX" title="Close" className="modal-close">X</a>
-                            <h1>Fashion!</h1><hr />
-                          <div>Why I love fashion</div>
-                        </div>
-                      </div>
-                   </div>
-
-                {/* TRAVEL */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#travel">
-                            <div className="circle">
-                              <img
-                                className="travel"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/travel.png')} 
-                                alt='travel'
-                              />
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div id="travel" className="modal-window">
-                        <div>
-                          <a href="#travelX" title="Close" className="modal-close">X</a>
-                            <h1>Travel!</h1><hr />
-                          <div>Why I love travel</div>
-                        </div>
-                      </div>
-                   </div>
-
-                {/* CODE */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#code">
-                            <div className="circle">
-                              <img
-                                className="code"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/code.png')} 
-                                alt='code'
-                              />
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                      <div id="code" className="modal-window">
-                        <div>
-                          <a href="#codeX" title="Close" className="modal-close">X</a>
-                            <h1>Code!</h1><hr />
-                          <div>Why I love code</div>
-                        </div>
-                      </div>
-                   </div>
-                
-                {/* ART */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#art">
-                            <div className="circle">
-                              <img
-                                className="art"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/art.png')} 
-                                alt='art'
-                              />
-                            </div>
-                            </a>
-                          </div>
-                        </div>
-                      <div id="art" className="modal-window">
-                        <div>
-                          <a href="#artX" title="Close" className="modal-close">X</a>
-                            <h1>Art!</h1><hr />
-                          <div>Why I love art</div>
-                        </div>
-                      </div>
-                   </div> 
+                  </a>
+                  <div id="tech" class="popup">
+                    <a href="#techX" className="close">X</a>
+                    <h2>Tech!</h2><hr />
+                      <p>Why I love tech</p>
+                  </div>
+                  <a href="#womenX" class="close-popup"></a>
+                </div>
 
                 {/* WOMEN TECH */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#women">
-                            <div className="circle">
-                              <img
-                                className="womenTech"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/womenTech.png')} 
-                                alt='women in tech'
-                              />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      <div id="women" className="modal-window">
-                        <div>
-                          <a href="#womenX" title="Close" className="modal-close">X</a>
-                            <h1>Women in STEM!</h1><hr />
-                          <div>Why I love women in STEM</div>
-                        </div>
-                      </div>
-                   </div>
+                <div className="wrap">
+                  <a className="btn" href="#women">
+                    <div className="circle womenSpecial">
+                      <img
+                        className="womenTech"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/womenTech.png')} 
+                        alt='women in tech'
+                      />
+                    </div>
+                  </a>
+                  <div id="women" class="popup">
+                    <a href="#womenX" className="close">X</a>
+                    <h2>Women in STEM!</h2><hr />
+                      <p>Why I love Women in STEM!</p>
+                  </div>
+                  <a href="#womenX" class="close-popup"></a>
+                </div>
+
+                {/* COFFEE */}
+                <div className="wrap">
+                  <a className="btn" href="#coffee">
+                    <div className="circle">
+                      <img
+                        className="coffee"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/coffee.png')} 
+                        alt='coffee'
+                      />
+                    </div>
+                  </a>
+                  <div id="coffee" class="popup">
+                    <a href="#coffeeX" className="close">X</a>
+                    <h2>Coffee!</h2><hr />
+                      <p>Why I love coffee</p>
+                  </div>
+                  <a href="#coffeeX" class="close-popup"></a>
+                </div>
+                
+                {/* CODE */}
+                <div className="wrap">
+                  <a className="btn" href="#code">
+                    <div className="circle">
+                      <img
+                        className="code"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/code.png')} 
+                        alt='code'
+                      />
+                    </div>
+                  </a>
+                  <div id="code" class="popup">
+                    <a href="#codeX" className="close">X</a>
+                    <h2>Code!</h2><hr />
+                      <p>Why I love code!</p>
+                  </div>
+                  <a href="#codeX" class="close-popup"></a>
+                </div>
+
+                {/* FASHION */}
+                <div className="wrap">
+                  <a className="btn" href="#style">
+                    <div className="circle">
+                      <img
+                        className="fashion"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/fashion.png')} 
+                        alt='fashion'
+                      />
+                    </div>
+                  </a>
+                  <div id="style" class="popup">
+                    <a href="#styleX" className="close">X</a>
+                    <h2>Passion for Fashion!</h2><hr />
+                      <p>Why I love fashion!</p>
+                  </div>
+                  <a href="#styleX" class="close-popup"></a>
+                </div>
+
+                {/* TRAVEL */}
+                <div className="wrap">
+                  <a className="btn" href="#travel">
+                    <div className="circle">
+                      <img
+                        className="travel"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/travel.png')} 
+                        alt='travel'
+                      />
+                    </div>
+                  </a>
+                  <div id="travel" class="popup">
+                    <a href="#travelX" className="close">X</a>
+                    <h2>Travel!</h2><hr />
+                      <p>Why I love travel</p>
+                  </div>
+                  <a href="#travelX" class="close-popup"></a>
+                </div>
+
+                
+                
+                {/* ART */}
+                <div className="wrap">
+                  <a className="btn" href="#art">
+                    <div className="circle">
+                      <img
+                        className="art"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/art.png')} 
+                        alt='art'
+                      />
+                    </div>
+                  </a>
+                  <div id="art" class="popup">
+                    <a href="#artX" className="close">X</a>
+                    <h2>Art!</h2><hr />
+                      <p>Why I love art!</p>
+                  </div>
+                  <a href="#artX" class="close-popup"></a>
+                </div>
+
+                
 
                 {/* GYM */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#gym">
-                            <div className="circle">
-                              <img
-                                className="gym"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/gym.png')} 
-                                alt='gym'
-                              />
-                              </div>
-                            </a>
-                          </div>
-                        </div>
-                      <div id="gym" className="modal-window">
-                        <div>
-                          <a href="#gymX" title="Close" className="modal-close">X</a>
-                            <h1>Working Out!</h1><hr />
-                          <div>Why I love working out</div>
-                        </div>
-                      </div>
-                   </div>
+                <div className="wrap">
+                  <a className="btn" href="#gym">
+                    <div className="circle">
+                      <img
+                        className="gym"
+                        src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/gym.png')} 
+                        alt='gym'
+                      />
+                    </div>
+                  </a>
+                  <div id="gym" class="popup">
+                    <a href="#gymX" className="close">X</a>
+                    <h2>Working Out!</h2><hr />
+                      <p>Why I love working out!</p>
+                  </div>
+                  <a href="#gymX" class="close-popup"></a>
+                </div>
 
-                {/* ARKANSAS */}
-                   <div className="wrap">
-                      <div className="container">
-                        <div className="interior">
-                          <a className="btn" href="#ark">
-                            <div className="circle">
-                              <img
-                                className="arkansas"
-                                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/arkansas.png')} 
-                                alt='arkansas'
-                              />
-                            </div>
-                            </a>
-                          </div>
-                        </div>
-                      <div id="ark" className="modal-window">
-                        <div>
-                          <a href="#arkX" title="Close" className="modal-close">X</a>
-                            <h1>Arkansas!</h1><hr />
-                          <div>Why I love Arkansas</div>
-                        </div>
-                      </div>
-                   </div>
+                
        
           </div>
           </div> 
