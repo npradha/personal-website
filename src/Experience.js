@@ -6,7 +6,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience">
-        <p>experience</p>
+        <p className="expTitle">experience</p>
       </div>
     );
   }

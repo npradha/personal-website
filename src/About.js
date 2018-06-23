@@ -38,7 +38,7 @@ class About extends Component {
                     </div>
                   </a>
                   <div id="ark" class="popup">
-                    <a href="/about" className="close">X</a>
+                    <a href="#arkX" className="close">X</a>
                     <h2>Arkansas!</h2><hr />
                       <p>Why I love Arkansas</p>
                   </div>

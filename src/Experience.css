@@ -1,0 +1,11 @@
+.expTitle{
+    width: 100%;
+    font-size: 65px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 7px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: rgb(29,63,82);
+    text-align: center;
+    margin-right: 100px;
+}
