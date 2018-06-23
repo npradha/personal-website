@@ -1,11 +1,75 @@
+@font-face {
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style : normal;
+           src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?v=4.3.0");
+           src : url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0") format("woff2"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff?v=4.3.0") format("woff"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.ttf?v=4.3.0") format("truetype"),
+                 url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+}
+
+.experience{
+    height: 100%; 
+    padding-bottom: 287px;
+    width: 100%;
+  }
+
 .expTitle{
     width: 100%;
     font-size: 65px;
     font-family: 'Dancing Script', cursive;
-    margin-top: 7px;
+    margin-top: 0px;
     margin-bottom: 8px;
     font-weight: 600;
     color: rgb(29,63,82);
     text-align: center;
     margin-right: 100px;
 }
+.expInfo{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns:repeat(5,1fr); 
+    grid-auto-rows: 22%;
+    grid-gap: 10px;
+    background-color:none;
+    color: rgb(29,63,82);
+    text-align: center;
+}
+hr{
+    width: 30px;
+}
+
+.read-more-wrap{
+    margin: 0;
+}
+
+ .read-more-state{
+	display: none;
+ }
+.read-more-target{
+    margin: 0;
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .33s ease;
+}
+.read-more-state:checked ~ .read-more-target{
+	opacity: 1;
+	font-size: inherit;
+	max-height: 100%;
+}
+.read-more-trigger{
+	cursor: pointer;
+	display: inline-block;
+}
+input.read-more-state ~ label.read-more-trigger:before {
+    content: '\f103';
+    font-family: 'FontAwesome';
+  }
+  
+  input.read-more-state:checked ~ label.read-more-trigger:before {
+    content: '\f102';
+    font-family: 'FontAwesome';
+  }
