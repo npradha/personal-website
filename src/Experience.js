@@ -68,6 +68,44 @@ class Experience extends Component {
     	      	</div>
             </div>
           </div>
+          <p className="expTitle">skills</p>
+          <div className="skills">
+            <div className="c skill"> C
+                <div className="dot c1 first red"></div>
+                <div className="dot c2 red"></div>
+                <div className="dot c3 red"></div>
+                <div className="dot c4 red"></div>
+                <div className="dot c5"></div>
+            </div>
+            <div className="java skill"> Java
+                <div className="dot j1 first red"></div>
+                <div className="dot j2 red"></div>
+                <div className="dot j3 red"></div>
+                <div className="dot j4 red"></div>
+                <div className="dot j5"></div>
+            </div>
+            <div className="html skill"> HTML
+                <div className="dot h1 first red"></div>
+                <div className="dot h2 red"></div>
+                <div className="dot h3 red"></div>
+                <div className="dot h4 red"></div>
+                <div className="dot h5 red"></div>
+            </div>
+            <div className="css skill"> CSS
+                <div className="dot css1 first red"></div>
+                <div className="dot css2 red"></div>
+                <div className="dot css3 red"></div>
+                <div className="dot css4 red"></div>
+                <div className="dot css5 red"></div>
+            </div>
+            <div className="javascript skill"> Javascript
+                <div className="dot js1 first red"></div>
+                <div className="dot js2 red"></div>
+                <div className="dot js3 red"></div>
+                <div className="dot js4 red"></div>
+                <div className="dot js5"></div>
+            </div>
+          </div>
       </div>
     );
   }
