@@ -28,14 +28,26 @@
     margin-right: 100px;
 }
 .expInfo{
+    /* border-style: dotted;
+    border-color: black; */
     margin-top: 30px;
     display: grid;
     grid-template-columns:repeat(5,1fr); 
     grid-auto-rows: 22%;
-    grid-gap: 10px;
+    grid-gap: 20px;
+    margin-left: 20px;
+    margin-right:20px;
     background-color:none;
     color: rgb(29,63,82);
     text-align: center;
+}
+.info{
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 1px 10px;
+    color: rgb(29,63,82);
+    border:rgb(191, 192, 199) dotted;
+    border-radius: 10%;
+
 }
 hr{
     width: 30px;
