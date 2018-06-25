@@ -24,7 +24,7 @@ class About extends Component {
         <p className="aboutMe">About Me!</p>
         <p className="aboutMe2">(Click below)</p>
           <div className="aboutContent">
-                <div className="aboutbuttons">
+            <div className="aboutbuttons">
 
                 {/* ARKANSAS */}
                 <div className="wrap">
@@ -158,8 +158,6 @@ class About extends Component {
                   </div>
                   <a href="#travelX" class="close-popup"></a>
                 </div>
-
-                
                 
                 {/* ART */}
                 <div className="wrap">
@@ -179,8 +177,6 @@ class About extends Component {
                   </div>
                   <a href="#artX" class="close-popup"></a>
                 </div>
-
-                
 
                 {/* GYM */}
                 <div className="wrap">

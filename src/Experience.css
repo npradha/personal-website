@@ -92,12 +92,16 @@ input.read-more-state ~ label.read-more-trigger:before {
       grid-template-rows:repeat(5,1fr); 
       grid-auto-rows: 22%;
       grid-gap: 20px;
+      width: 50%;
+      margin: 0 auto;
     }
   .skill{
-      text-align: left;
+      /* text-align: left;
       margin-right: 0;
       width: 175px;
-      margin-left: 42%;
+      margin-left: 42%; */
+      margin: 0 auto;
+      font-weight: bold;
   }
 
 .c1{
@@ -117,7 +121,6 @@ input.read-more-state ~ label.read-more-trigger:before {
 }
 
 .dot{
-
     content:'';
     width: 10px;
     height: 10px;
@@ -129,4 +132,26 @@ input.read-more-state ~ label.read-more-trigger:before {
 }
 .red{
     background-color:  rgb(34, 73, 95);
+}
+.lowerHalf{
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.skillHalf{
+    float:left;
+    width: 50%;
+}
+.awardHalf{
+    float: right;
+    width: 50%;
+}
+.newTitle{
+    font-size: 45px;
+   text-decoration: underline double;
+}
+h2{
+    display: inline;
+    font-weight:900; 
 }
