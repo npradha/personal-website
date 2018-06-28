@@ -67,10 +67,12 @@ hr{
 	font-size: 0;
 	transition: .33s ease;
 }
+/*Where to change height of individual divs*/
 .read-more-state:checked ~ .read-more-target{
 	opacity: 1;
-	font-size: inherit;
-	max-height: 100%;
+    font-size: inherit;
+    
+	max-height: 50%;
 }
 .read-more-trigger{
 	cursor: pointer;
@@ -105,13 +107,13 @@ input.read-more-state ~ label.read-more-trigger:before {
   }
 
 .c1{
-    margin-left: 86px;
+    margin-left: 93px;
 }
 .j1{
-    margin-left: 61px;
+    margin-left: 55px;
 }
 .h1{
-    margin-left: 54px;
+    margin-left: 48px;
 }
 .css1{
     margin-left: 69px;
@@ -149,9 +151,10 @@ input.read-more-state ~ label.read-more-trigger:before {
 }
 .newTitle{
     font-size: 45px;
-   text-decoration: underline double;
+   text-decoration: underline;
 }
 h2{
     display: inline;
     font-weight:900; 
+    color:  rgb(23, 54, 71);
 }

@@ -57,7 +57,7 @@ class App extends Component {
 
         
         <div className="divider">Netra Pradhan | www.netrapradhan.com</div>
-        <Route path="/contact" component={Contact}/>
+        {/* <Route path="/contact" component={Contact}/> */}
         </div>
        
 

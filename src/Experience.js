@@ -20,10 +20,10 @@ class Experience extends Component {
           <div className="expInfo">
             <div className="info">
               <div className="xtern">
-    			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-xtern"/>
+    			      <input type="checkbox" className="read-more-state read-more-state-xtern jcf-hidden" id="following-content-xtern"/>
     			        <p className="read-more-wrap">Xtern</p><hr />
                 {/* read more goes here */}
-                  <p className="read-more-target">woooooooooooot.</p>
+                  <p className="read-more-target read-more-target-xtern">woooooooooooot.jnejgnfj, jngjnring jnjgrjkgjjnjjnjngjenkn kjnjgbjihrnns</p>
     		        	<label htmlFor="following-content-xtern" className="read-more-trigger"></label>
     	      	</div>
             </div>
@@ -111,6 +111,10 @@ class Experience extends Component {
             </div>
             <div className="awardHalf">
             <p className="expTitle newTitle">awards+honors</p>
+            <h2>NCWIT Aspirations in Computing--Arkansas Affiliate Winner</h2>
+            <br></br>
+            <br></br>
+            <h2>AT&T Girls of Promise Tech. Contest--Winner</h2>
             </div>
           </div>
       </div>
