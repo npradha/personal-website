@@ -26,4 +26,21 @@
     color: rgb(29,63,82);
     border:rgb(191, 192, 199) dotted;
   }
-
+  @media (max-width: 915px) {
+    .homeNetra{
+      width: 80%;
+    }
+    .homeContent{
+      width: 80%;
+    }
+  }
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px){ 
+    .homeNetra{
+      width: 80%;
+    }
+    .homeContent{
+      width: 80%;
+    }
+  }

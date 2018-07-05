@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
 
         <div className="App-header">
-          <h1 className="App-title">netra pradhan.</h1>
+          <h1 className="App-title">netra pradhan</h1>
         </div>
 
         <div className="links">

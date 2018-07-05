@@ -33,7 +33,7 @@ input{
 }
 
 input:focus{
-    border-color: rgb(116, 28, 42);
+    border-color:  rgb(29,63,82);
 }
 
 textarea{
@@ -42,6 +42,13 @@ textarea{
    margin-bottom: 10px;
    border-radius: 25px; 
    padding: 8px 15px;
+}
+button{
+    background-color: rgb(226, 226, 228);
+    width: 75px;
+    border-radius: 20%;
+    color: rgb(29,63,82); 
+
 }
 @media (max-width: 915px) {
     .Contact{

@@ -30,15 +30,25 @@
      position: absolute;
      margin-top: 5px;
      margin-left: 15px;
+     width: 100%;
       /*top: 3%;
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%); */
       font-weight: 500;
   }
-
+  
  
   @media (max-width: 600px) {
+    .App-title{
+      font-size: 350%;
+      margin-top: 20px;
+    }
+  }
+
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px){
     .App-title{
       font-size: 350%;
       margin-top: 20px;
