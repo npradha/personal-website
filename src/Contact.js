@@ -12,7 +12,7 @@ class Contact extends Component {
         <input type="text" name="nameuser" placeholder="Your name"/><br></br>
         <input type="email" name="email" placeholder="Your email"/><br></br>
         <textarea name="message" placeholder="Your message"></textarea><br></br>
-        <input type="hidden" name="_next" value="https://facebook.com" />
+        <input type="hidden" name="_next" value="/" />
         <button type="submit">Send</button>
       </form>
 

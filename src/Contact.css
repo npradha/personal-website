@@ -43,3 +43,23 @@ textarea{
    border-radius: 25px; 
    padding: 8px 15px;
 }
+@media (max-width: 915px) {
+    .Contact{
+        padding-bottom: 20%;
+    }
+    .title{
+        font-size: 50px;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+    .Contact{
+        padding-bottom: 20%;
+    }
+    .title{
+        font-size: 50px;
+    }
+}

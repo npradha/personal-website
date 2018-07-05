@@ -63,8 +63,15 @@
         height: 75%;
       }
       .aboutbuttons{
+      
+        padding-top: 5%;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 33%;
         grid-gap: 7%;
-        grid-row-gap: 10px; 
+        grid-row-gap: 20px;
       }
 
       
