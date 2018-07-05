@@ -41,7 +41,6 @@
        width: 100%; 
         margin-left: 3%; 
     }
-
     @media (max-width: 915px) {
       .About{
         column-count: auto;
@@ -53,8 +52,41 @@
         margin-top: 20px;
 
       }
+      .aboutContent{
+        margin-left: 20%;
+        width: 50%;
+        height: 50%;
+      }
+      .aboutNetra{
+        width: 75%;
+        height: 75%;
+      }
+
       
     }  
+    @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+  .About{
+    column-count: auto;
+    height:100%;
+    width:100%;
+  }
+  .aboutMe{
+    font-size: 350%;
+    margin-top: 20px;
+
+  }
+  .aboutContent{
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+  }
+  .aboutNetra{
+    width: 75%;
+    height: 75%;
+  } 
+}
 
     .circle{
       width: 95px;
