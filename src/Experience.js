@@ -109,8 +109,9 @@ class Experience extends Component {
                 </div>
               </div>
             </div>
-            <div className="awardHalf">
             <p className="expTitle newTitle">awards+honors</p>
+            <div className="awardHalf">
+            
             <h2>NCWIT Aspirations in Computing--Arkansas Affiliate Winner</h2>
             <br></br>
             <br></br>
