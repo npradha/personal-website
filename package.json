@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://npradha.github.io/personal-website",
+  "homepage": "https://npradha.github.io/home",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",

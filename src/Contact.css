@@ -1,0 +1,45 @@
+.Contact{
+    height: 100%; 
+     padding-bottom: 12%;
+    width: 100%;
+  }
+.title{
+    width: 100%;
+      font-size: 65px;
+      font-family: 'Dancing Script', cursive;
+      margin-top: 25px;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: rgb(29,63,82);
+      text-align: center;
+      margin-right: 100px;
+}
+.form{
+    width: 450px;
+    font-size: 16px;
+    /* background: #495C70; */
+    padding: 30px 30px 15px 30px;
+    /* border: 5px solid #53687E; */
+    color: rgb(29,63,82);
+
+    
+}
+input{
+   height: 30px;
+   width: 30%;
+   margin-bottom: 10px;
+   border-radius: 25px;
+   padding: 8px 15px;
+}
+
+input:focus{
+    border-color: rgb(116, 28, 42);
+}
+
+textarea{
+    height: 100px;
+   width: 30%;
+   margin-bottom: 10px;
+   border-radius: 25px; 
+   padding: 8px 15px;
+}
