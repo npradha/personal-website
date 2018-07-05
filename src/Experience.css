@@ -204,3 +204,51 @@ h2{
 
 
 }
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+    .experience{
+        padding-bottom: 10%;
+    }
+
+    .expInfo{
+        /* border-style: dotted;
+        border-color: black; */
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns:repeat(1,1fr); 
+        grid-template-rows: repeat(3,1fr);
+        grid-auto-rows: 22%;
+        grid-gap: 20px;
+        margin-left: 20px;
+        margin-right:20px;
+        background-color:none;
+        color: rgb(29,63,82);
+        text-align: center;
+    }
+    .info{
+        width: 45%;
+        margin-left: 25%;
+    }
+    .skills{
+        width: 100%;
+    }
+    .skillHalf{
+      float: none;
+      width: 100%;
+    }
+    .expTitle{
+        margin-top: 30px;
+    }
+    .awardHalf{
+        float:none;
+        width: 85%;
+        margin-top: 10px;
+        padding-bottom: 0;
+        margin: 0 auto;
+    }
+
+
+
+
+}
