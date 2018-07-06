@@ -18,56 +18,110 @@ class Experience extends Component {
                 <label className="read-more-trigger" htmlFor="read-more-controller"></label>
           </div> */}
           <div className="expInfo">
+
             <div className="info">
               <div className="xtern">
-    			      <input type="checkbox" className="read-more-state read-more-state-xtern jcf-hidden" id="following-content-xtern"/>
-    			        <p className="read-more-wrap">Xtern</p><hr />
-                {/* read more goes here */}
-                  <p className="read-more-target read-more-target-xtern">woooooooooooot.jnejgnfj, jngjnring jnjgrjkgjjnjjnjngjenkn kjnjgbjihrnns</p>
-    		        	<label htmlFor="following-content-xtern" className="read-more-trigger"></label>
+              <h3 className="bold title1">XTERN</h3><hr />
+              <p className="bold">May 2018-June 2018</p>
+              <p className="bold title2">Participant</p>
+              <ul>
+                <li>Participated in a 3-week intensive 
+                  training course, hosted by TechPoint, 
+                  focused on developing the skills and 
+                  competencies needed for internships 
+                  in tech
+                </li>
+                <li>Developed various applications using 
+                  the JavaScript and React framework</li>
+              </ul>
+    			      {/* <input type="checkbox" className="read-more-state read-more-state-xtern jcf-hidden" id="following-content-xtern"/>
+    			        <p className="read-more-wrap">XTERN</p><hr />
+                  <p className="read-more-target read-more-target-xtern">
+              
+                  </p>
+    		        	<label htmlFor="following-content-xtern" className="read-more-trigger"></label> */}
     	      	</div>
             </div>
 
             <div className="info">
               <div className="contax">
-    			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-contax"/>
+              <h3 className="bold title1">Contax</h3><hr />
+              <p className="bold">Sept 2017-Present</p>
+              <p className="bold title2">Android Developer</p>
+              <ul>
+                <li className="fontSmall">Developing Android Application to 
+                  store user’s contact information in 
+                  a QR code for easy distribution of 
+                  information</li>
+                <li className="fontSmall">Improving the contact information a 
+                  user can store in order to maximize the 
+                  amount of information for distribution</li>
+                <li className="fontSmall">Using Android Studio for development 
+                  and Google Firebase for data storage</li>
+              </ul>
+    			      {/* <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-contax"/>
     			        <p className="read-more-wrap">Contax</p><hr />
-                {/* read more goes here */}
                   <p className="read-more-target">woooooooooooot.</p>
-    		        	<label htmlFor="following-content-contax" className="read-more-trigger"></label>
+    		        	<label htmlFor="following-content-contax" className="read-more-trigger"></label> */}
     	      	</div>
             </div>
-
-            <div className="info">
-              <div className="lilmiss">
-    			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-lilmiss"/>
-    			        <p className="read-more-wrap">Lil Miss Coder</p><hr />
-                {/* read more goes here */}
-                  <p className="read-more-target">woooooooooooot.</p>
-    		        	<label htmlFor="following-content-lilmiss" className="read-more-trigger"></label>
-    	      	</div>
-            </div>
-
-            {/* <div className="info">
-              <div className="ncwit">
-    			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-ncwit"/>
-    			        <p className="read-more-wrap">NCWIT</p><hr />
-            
-                  <p className="read-more-target">woooooooooooot.</p>
-    		        	<label htmlFor="following-content-ncwit" className="read-more-trigger"></label>
-    	      	</div>
-            </div> */}
 
             <div className="info">
               <div className="heifer">
-    			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-heifer"/>
+              <h3 className="bold title1">Heifer International</h3><hr />
+              <p className="bold">Jan 2017-April 2017</p>
+              <p className="bold title2">Lead Developer & UI/UX Designer</p>
+              <ul>
+                <li>
+                Innovated an Android application to 
+                help with donations and fundraising 
+                for nonprofit</li>
+                <li>Implemented application in my high 
+                  school to benefit the Heifer International 
+                  Club</li>
+                <li>Used Android Studio for development</li>
+              </ul>
+    			      {/* <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-heifer"/>
     			        <p className="read-more-wrap">Heifer International</p><hr />
-                {/* read more goes here */}
                   <p className="read-more-target">woooooooooooot.</p>
-    		        	<label htmlFor="following-content-heifer" className="read-more-trigger"></label>
+    		        	<label htmlFor="following-content-heifer" className="read-more-trigger"></label> */}
     	      	</div>
             </div>
+
+
+
+
+
+            <div className="info">
+              <div className="lilmiss">
+              <h3 className="bold title1">Lil Miss Coder</h3><hr />
+              <p className="bold">Sept 2016-May 2017</p>
+              <p className="bold title2">President & Senior Leader</p>
+              <ul>
+                <li className="fontSmall">Led community program that 
+                  introduces young girls to computer 
+                  science</li>
+                <li className="fontSmall">Demonstrated basic Java projects 
+                  and web development to allow girls 
+                  to gain exposure to coding</li>
+                <li className="fontSmall">Brought in “Women in Technology” 
+                  guest speakers to inform girls on 
+                  different careers in computer science</li>
+              </ul>
+    			      {/* <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-lilmiss"/>
+    			        <p className="read-more-wrap">Lil Miss Coder</p><hr />
+                  <p className="read-more-target">woooooooooooot.</p>
+    		        	<label htmlFor="following-content-lilmiss" className="read-more-trigger"></label> */}
+    	      	</div>
+            </div>
+
+
+           
           </div>
+
+
+
+
           <div className="lowerHalf">
             <div className="skillHalf">
               <p className="expTitle newTitle">skills</p>

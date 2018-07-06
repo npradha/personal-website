@@ -18,7 +18,7 @@
 
 .expTitle{
     width: 100%;
-    font-size: 65px;
+    font-size: 75px;
     font-family: 'Dancing Script', cursive;
     margin-top: 0px;
     margin-bottom: 8px;
@@ -47,12 +47,38 @@
     color: rgb(29,63,82);
     border:rgb(191, 192, 199) dotted;
     border-radius: 10%;
+    height: 100%;
+    width: 90%;
 
 }
 hr{
-    width: 30px;
+    width: 100px;
+}
+.bold{
+    font-weight: 900;
+    margin-bottom: 0;
+   
+}
+.title1{
+    font-size: 25px;
+}
+.title2{
+    margin-top: 2px;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+}
+li{
+    text-align: left;
+    margin-bottom: 7px;
+}
+.fontSmall{
+    font-size: 15px;
 }
 
+
+/* 
 .read-more-wrap{
     margin: 0;
 }
@@ -67,7 +93,6 @@ hr{
 	font-size: 0;
 	transition: .33s ease;
 }
-/*Where to change height of individual divs*/
 .read-more-state:checked ~ .read-more-target{
 	opacity: 1;
     font-size: inherit;
@@ -86,7 +111,7 @@ input.read-more-state ~ label.read-more-trigger:before {
   input.read-more-state:checked ~ label.read-more-trigger:before {
     content: '\f102';
     font-family: 'FontAwesome';
-  }
+  } */
 
 
   .skills{
