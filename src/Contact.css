@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .Contact{
     height: 100%; 
      padding-bottom: 12%;
@@ -13,6 +15,16 @@
       color: rgb(29,63,82);
       text-align: center;
       margin-right: 100px;
+}
+.msgInfo{
+    width: 100%;
+   font-size: 20px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: rgb(29,63,82);
+    text-align: center;
+    margin-right: 5px;
 }
 .form{
     width: 450px;
@@ -43,12 +55,13 @@ textarea{
    border-radius: 25px; 
    padding: 8px 15px;
 }
+.send{
+    height: 60px;
+}
 button{
-    background-color: rgb(226, 226, 228);
-    width: 75px;
-    border-radius: 20%;
-    color: rgb(29,63,82); 
-
+    border: none; 
+    background-color:rgb(236,237,243); 
+    margin-top: 0;
 }
 @media (max-width: 915px) {
     .Contact{

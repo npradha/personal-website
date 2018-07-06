@@ -48,15 +48,15 @@ class Experience extends Component {
     	      	</div>
             </div>
 
-            <div className="info">
+            {/* <div className="info">
               <div className="ncwit">
     			      <input type="checkbox" className="read-more-state jcf-hidden" id="following-content-ncwit"/>
     			        <p className="read-more-wrap">NCWIT</p><hr />
-                {/* read more goes here */}
+            
                   <p className="read-more-target">woooooooooooot.</p>
     		        	<label htmlFor="following-content-ncwit" className="read-more-trigger"></label>
     	      	</div>
-            </div>
+            </div> */}
 
             <div className="info">
               <div className="heifer">
