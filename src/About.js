@@ -148,10 +148,10 @@ class About extends Component {
                          When I come home from school, I love to catch up 
                          with friends over coffee. Anything can happen over
                           a cup of coffee!</p>
-                          <p>** If you would like to meet up for a coffee
+                          <p>If you would like to meet up for a coffee
                              chat, feel free to message me on any of my social 
                              media down below or send me a message through my 
-                             Contact page! **</p>
+                             Contact page!</p>
                   </div>
                   <a href="#coffeeX" class="close-popup"></a>
                 </div>

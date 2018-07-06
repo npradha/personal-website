@@ -170,6 +170,9 @@ class Experience extends Component {
             <br></br>
             <br></br>
             <h2>AT&T Girls of Promise Tech. Contest--Winner</h2>
+            <br></br>
+            <br></br>
+            <h2>Bentonville Kiwanis Club--2017 Youth Excellence Award</h2>
             </div>
           </div>
       </div>

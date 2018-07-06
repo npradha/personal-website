@@ -41,7 +41,7 @@
        width: 100%; 
         margin-left: 3%; 
     }
-    @media (max-width: 915px) {
+    @media (max-width: 1019px) {
       .About{
         column-count: auto;
         height:100%;
@@ -52,11 +52,14 @@
         margin-top: 20px;
 
       }
+      .wrap{
+        margin: 0 auto;
+      }
       .aboutContent{
-        margin-left: 20%;
-        width: 50%;
+        /* margin-left: 20%; */
+        width: 100%;
         height: 50%;
-        margin-right: 10px;
+        /* margin-right: 10px; */
       }
       .aboutNetra{
         width: 75%;
@@ -89,10 +92,14 @@ and (max-device-width : 667px){
     margin-top: 20px;
 
   }
+  .wrap{
+    margin: 0 auto;
+  }
   .aboutContent{
-    margin-left: 20%;
-    width: 50%;
+    /* margin-left: 20%; */
+    width: 100%;
     height: 50%;
+    /* margin-right: 10px; */
   }
   .aboutNetra{
     width: 75%;
