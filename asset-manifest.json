@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.1b114b37.css",
-  "main.css.map": "static/css/main.1b114b37.css.map",
-  "main.js": "static/js/main.a9cc30cf.js",
-  "main.js.map": "static/js/main.a9cc30cf.js.map",
+  "main.css": "static/css/main.37730b54.css",
+  "main.css.map": "static/css/main.37730b54.css.map",
+  "main.js": "static/js/main.4952a170.js",
+  "main.js.map": "static/js/main.4952a170.js.map",
   "static/media/aboutNetra.jpeg": "static/media/aboutNetra.a9e4ea1a.jpeg",
   "static/media/arkansas.png": "static/media/arkansas.b36e20ce.png",
   "static/media/art.png": "static/media/art.b18c1e3d.png",
@@ -10,6 +10,7 @@
   "static/media/coffee.png": "static/media/coffee.0fe8f7fd.png",
   "static/media/doorNetra.jpg": "static/media/doorNetra.d324c48d.jpg",
   "static/media/fashion.png": "static/media/fashion.679b09de.png",
+  "static/media/send.png": "static/media/send.95c07ba2.png",
   "static/media/travel.png": "static/media/travel.10a69388.png",
   "static/media/womenTech.png": "static/media/womenTech.8e20be67.png"
 }
