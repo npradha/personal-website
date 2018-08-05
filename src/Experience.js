@@ -115,13 +115,9 @@ class Experience extends Component {
     	      	</div>
             </div>
 
-
-           
           </div>
-
-
-
-
+          
+        
           <div className="lowerHalf">
             <div className="skillHalf">
               <p className="expTitle newTitle">skills</p>
