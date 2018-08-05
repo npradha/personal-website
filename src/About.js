@@ -39,7 +39,7 @@ class About extends Component {
                   </a>
                   <div id="ark" className="popup">
                     <a href="#arkX" className="close">X</a>
-                    <h2>Arkansas!</h2><hr />
+                    <h2>Arkansas</h2><hr />
                       <p>I was born in Bentonville, Arkansas. When I
                          introduce myself, not many people have heard 
                          of the state. I admit, it’s no Texas or 
@@ -72,7 +72,7 @@ class About extends Component {
                   </a>
                   <div id="tech" class="popup">
                     <a href="#techX" className="close">X</a>
-                    <h2>Tech!</h2><hr />
+                    <h2>Tech</h2><hr />
                       <p> I knew I wanted to pursue a technology 
                         career in the 8th grade. I had to give a 
                         presentation about a career we would be 
@@ -104,7 +104,7 @@ class About extends Component {
                   </a>
                   <div id="women" class="popup">
                     <a href="#womenX" className="close">X</a>
-                    <h2>Women in STEM!</h2><hr />
+                    <h2>Women in STEM</h2><hr />
                       <p>I took my first programming class in high
                          school. I was nervous for the first day 
                          because I already knew the boy-girl ratio 
@@ -139,7 +139,7 @@ class About extends Component {
                   </a>
                   <div id="coffee" class="popup">
                     <a href="#coffeeX" className="close">X</a>
-                    <h2>Coffee!</h2><hr />
+                    <h2>Coffee</h2><hr />
                       <p>I am a java enthusiast! I love coffee. 
                         On campus, you will find me studying at Starbucks 
                         or a coffee shop. The smell of coffee helps me to 
@@ -169,7 +169,7 @@ class About extends Component {
                   </a>
                   <div id="code" class="popup">
                     <a href="#codeX" className="close">X</a>
-                    <h2>Code!</h2><hr />
+                    <h2>Code</h2><hr />
                       <p>Coding is the foundation of all technology. 
                         I began coding in high school and really 
                         enjoyed it. I learned Java, HTML and CSS in 
@@ -198,17 +198,17 @@ class About extends Component {
                   </a>
                   <div id="style" class="popup">
                     <a href="#styleX" className="close">X</a>
-                    <h2>Passion for Fashion!</h2><hr />
+                    <h2>Passion for Fashion</h2><hr />
                       <p>Apart from technology and school, 
                         I’m really into fashion and beauty. 
                         For me, it is a hobby. I love following 
-                        Fashion Week, the Met Gala, the Cannes Film
+                        Fashion Week, the MET Gala, the Cannes Film
                          Festival, and a variety of red carpets. I 
                          love getting to know different trends and 
                          applying it to my style. For beauty, I am 
                          always up to date on the new beauty products that
                           are out. I can talk about makeup for hours. 
-                          Fashion and Makeup allow me to express myself
+                          Fashion and makeup allow me to express myself
                            through style. </p>
                   </div>
                   <a href="#styleX" class="close-popup"></a>
@@ -227,7 +227,7 @@ class About extends Component {
                   </a>
                   <div id="travel" class="popup">
                     <a href="#travelX" className="close">X</a>
-                    <h2>Travel!</h2><hr />
+                    <h2>Travel</h2><hr />
                       <p>I really love traveling. If I could make an 
                         airplane my home, I would. Sometime in the future, 
                         I would love to acquire a pilot’s license. Traveling 
@@ -257,7 +257,7 @@ class About extends Component {
                   </a>
                   <div id="art" class="popup">
                     <a href="#artX" className="close">X</a>
-                    <h2>Art!</h2><hr />
+                    <h2>Art</h2><hr />
                       <p>Art is a very hidden passion of mine. Not many 
                         of my friends know how much I love drawing and painting.
                          I love creating art because it is very relaxing. I also 
@@ -287,7 +287,7 @@ class About extends Component {
                   </a>
                   <div id="gym" class="popup">
                     <a href="#gymX" className="close">X</a>
-                    <h2>Working Out!</h2><hr />
+                    <h2>Working Out</h2><hr />
                       <p>Everybody knows working out is a great stress reliever! 
                         I love to work out. I really enjoy going to a 
                         specialized workout class such as Pound, Zumba, Spin, 
