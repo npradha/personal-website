@@ -1,10 +1,11 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://npradha.github.io/home",
+  "homepage": "https://npradha.github.io/personal-website/",
   "private": true,
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "netlify-cli": "^1.2.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.2.2",
