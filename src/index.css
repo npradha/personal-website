@@ -1,7 +1,12 @@
 body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background-color:rgb(236, 237, 243);
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }

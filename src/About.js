@@ -56,7 +56,7 @@ class About extends Component {
                          Bentonville Film Festival, I’ve seen this small town 
                          grow into a buzzing city. </p>
                   </div>
-                  <a href="#arkX" class="close-popup"></a>
+                  <a href="#arkX" className="close-popup"></a>
                 </div>
                
                 {/* TECH  */}
@@ -70,7 +70,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="tech" class="popup">
+                  <div id="tech" className="popup">
                     <a href="#techX" className="close">X</a>
                     <h2>Tech</h2><hr />
                       <p> I knew I wanted to pursue a technology 
@@ -88,7 +88,7 @@ class About extends Component {
                           technology because it can better people’s lives 
                           and make an outstanding impact on our society. </p>
                   </div>
-                  <a href="#womenX" class="close-popup"></a>
+                  <a href="#womenX" className="close-popup"></a>
                 </div>
 
                 {/* WOMEN TECH */}
@@ -102,7 +102,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="women" class="popup">
+                  <div id="women" className="popup">
                     <a href="#womenX" className="close">X</a>
                     <h2>Women in STEM</h2><hr />
                       <p>I took my first programming class in high
@@ -123,7 +123,7 @@ class About extends Component {
                         issue that is very close to me and I want to make a
                          difference and restore the balance in the field. </p>
                   </div>
-                  <a href="#womenX" class="close-popup"></a>
+                  <a href="#womenX" className="close-popup"></a>
                 </div>
 
                 {/* COFFEE */}
@@ -137,7 +137,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="coffee" class="popup">
+                  <div id="coffee" className="popup">
                     <a href="#coffeeX" className="close">X</a>
                     <h2>Coffee</h2><hr />
                       <p>I am a java enthusiast! I love coffee. 
@@ -153,7 +153,7 @@ class About extends Component {
                              media down below or send me a message through my 
                              Contact page!</p>
                   </div>
-                  <a href="#coffeeX" class="close-popup"></a>
+                  <a href="#coffeeX" className="close-popup"></a>
                 </div>
                 
                 {/* CODE */}
@@ -167,7 +167,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="code" class="popup">
+                  <div id="code" className="popup">
                     <a href="#codeX" className="close">X</a>
                     <h2>Code</h2><hr />
                       <p>Coding is the foundation of all technology. 
@@ -182,7 +182,7 @@ class About extends Component {
                         and coding helps me to build programs and softwares 
                         that will benefit others. </p>
                   </div>
-                  <a href="#codeX" class="close-popup"></a>
+                  <a href="#codeX" className="close-popup"></a>
                 </div>
 
                 {/* FASHION */}
@@ -196,7 +196,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="style" class="popup">
+                  <div id="style" className="popup">
                     <a href="#styleX" className="close">X</a>
                     <h2>Passion for Fashion</h2><hr />
                       <p>Apart from technology and school, 
@@ -211,7 +211,7 @@ class About extends Component {
                           Fashion and makeup allow me to express myself
                            through style. </p>
                   </div>
-                  <a href="#styleX" class="close-popup"></a>
+                  <a href="#styleX" className="close-popup"></a>
                 </div>
 
                 {/* TRAVEL */}
@@ -225,7 +225,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="travel" class="popup">
+                  <div id="travel" className="popup">
                     <a href="#travelX" className="close">X</a>
                     <h2>Travel</h2><hr />
                       <p>I really love traveling. If I could make an 
@@ -241,7 +241,7 @@ class About extends Component {
                            been my most favorite. My dream destination is Greece 
                            so I hope to visit soon!</p>
                   </div>
-                  <a href="#travelX" class="close-popup"></a>
+                  <a href="#travelX" className="close-popup"></a>
                 </div>
                 
                 {/* ART */}
@@ -255,7 +255,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="art" class="popup">
+                  <div id="art" className="popup">
                     <a href="#artX" className="close">X</a>
                     <h2>Art</h2><hr />
                       <p>Art is a very hidden passion of mine. Not many 
@@ -271,7 +271,7 @@ class About extends Component {
                            Art is like a puzzle where small components of the art creates 
                            the bigger picture. </p>
                   </div>
-                  <a href="#artX" class="close-popup"></a>
+                  <a href="#artX" className="close-popup"></a>
                 </div>
 
                 {/* GYM */}
@@ -285,7 +285,7 @@ class About extends Component {
                       />
                     </div>
                   </a>
-                  <div id="gym" class="popup">
+                  <div id="gym" className="popup">
                     <a href="#gymX" className="close">X</a>
                     <h2>Working Out</h2><hr />
                       <p>Everybody knows working out is a great stress reliever! 
@@ -296,7 +296,7 @@ class About extends Component {
                         to the gym. With my two best friends coming to class with 
                         me, I have fun working a sweat. </p>
                   </div>
-                  <a href="#gymX" class="close-popup"></a>
+                  <a href="#gymX" className="close-popup"></a>
                 </div>
 
                 

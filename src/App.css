@@ -11,7 +11,6 @@
   
   
   .App-header {
-   
     background-color: #1B3F52;
     height: 115px;
     width: 100%;
@@ -39,56 +38,11 @@
       font-weight: 500;
   }
   
-
-
- 
-  @media (max-width: 600px) {
-    .App-title{
-      font-size: 350%;
-      margin-top: 20px;
-    }
-    .links li {
-      width: 130px;
-      border-bottom: none;
-      height: 50px;
-      line-height: 50px;
-      font-size: 1.4em;
-      display: inline-block;
-      margin-right: -4px;
-    }
-  
-    .links NavLinks {
-      border-bottom: none;
-    }
-  
-    .links > ul > li {
-      text-align: center;
-    }
-  
-    .links > ul > li > NavLinks {
-      padding-left: 0;
-    }
-  }
-
-  @media only screen 
-  and (min-device-width : 375px) 
-  and (max-device-width : 667px){
-    .App-title{
-      font-size: 350%;
-      margin-top: 20px;
-    }
-  } 
-
-
-
-
-
-
   .links{
       /*div holding nav links*/
       background-color: rgb(191, 192, 199);
       padding: 1px 1px;
-      width: 100%;
+      /* width: 100%; */
       margin-left: auto;
       margin-right: auto ;
        height: 40px;
@@ -101,12 +55,15 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    margin-bottom: 2px;
   } 
   .navLinks li {
     padding: 2px;
     width: 150px;
-    margin-left: auto ;
-    margin-right: auto ;
+  
+    /* margin-left: auto ;
+    margin-right: auto ; */
+    margin: 0 auto;
     display: inline-block;
     font-weight: 500;
   }
@@ -165,3 +122,47 @@
   width: 100%;
   top: 15px
 }
+
+@media (max-width: 600px) {
+  .App-title{
+    font-size: 350%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+ 
+
+  .links li {
+    width: 130px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 10px;
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+  .links NavLinks {
+    border-bottom: none;
+  }
+
+  .links > ul > li {
+    text-align: center;
+  }
+
+  .links > ul > li > NavLinks {
+    padding-left: 0;
+  }
+  .navLinks a:link {
+    font-size: 20px;
+  
+  }
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px){
+  .App-title{
+    font-size: 100%;
+    margin-top: 20px;
+  }
+} 
