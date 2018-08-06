@@ -6,7 +6,7 @@ class Experience extends Component {
   render() {
     return (
       <div className="experience">
-        <p className="expTitle">experience</p>
+        <p className="expTitle bigTitle">experience</p>
           {/* <div className="expInfo">
             <input className="read-more-state" id="read-more-controller" type="checkbox"/>
                 <div className="read-more-wrap">

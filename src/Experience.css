@@ -174,7 +174,7 @@ input.read-more-state ~ label.read-more-trigger:before {
 .awardHalf{
     float: right;
     width: 50%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
 }
 .newTitle{
     font-size: 45px;
@@ -256,10 +256,11 @@ and (max-device-width : 667px){
         background-color:none;
         color: rgb(29,63,82);
         text-align: center;
+        width: 100%; 
     }
     .info{
         width: 70%;
-        margin-left: 25%;
+        /* margin-left: 25%; */
     }
     .skills{
         width: 100%;
@@ -270,6 +271,9 @@ and (max-device-width : 667px){
     }
     .expTitle{
         margin-top: 30px;
+    }
+    .bigTitle{
+        margin-top: 15px;
     }
     .awardHalf{
         float:none;
