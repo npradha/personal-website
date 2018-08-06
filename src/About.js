@@ -82,8 +82,7 @@ class About extends Component {
                         engineer. </p>
                         <p> While I was doing research, I realized how 
                           much I enjoyed doing what software engineers 
-                          do. Keeping in mind I did not know how to code 
-                          then, I knew I wanted to help people and solve 
+                          do. I knew I wanted to help people and solve 
                           problems as a career. I am very passionate about 
                           technology because it can better people’s lives 
                           and make an outstanding impact on our society. </p>
@@ -201,7 +200,7 @@ class About extends Component {
                     <h2>Passion for Fashion</h2><hr />
                       <p>Apart from technology and school, 
                         I’m really into fashion and beauty. 
-                        For me, it is a hobby. I love following 
+                        For me, it is more than a hobby. I love following 
                         Fashion Week, the MET Gala, the Cannes Film
                          Festival, and a variety of red carpets. I 
                          love getting to know different trends and 
