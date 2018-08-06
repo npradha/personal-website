@@ -20,18 +20,40 @@ class App extends Component {
         <div className="links">
 
           <ul className="navLinks">
-            <li><NavLink exact to="/">home</NavLink></li>
+          <li><NavLink  to="/home">home</NavLink></li>
+            {/* <li><NavLink exact to="/">home</NavLink></li> */}
             <li><NavLink to="/about">about</NavLink></li>
             <li><NavLink to="/experience">experience</NavLink></li>
             <li><NavLink to="/contact">contact</NavLink></li>
           </ul>
         </div>
-
         <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route path="/home" component={Home}/>
+          {/* <Route exact path="/" component={Home}/> */}
           <Route path="/about" component={About}/>
           <Route path="/experience" component={Experience}/>
           <Route path="/contact" component={Contact}/>
+          <Route render={() => 
+            <div className="Home">
+              <img
+                className="homeNetra"
+                src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/aboutNetra.jpeg')}
+                alt="Netra"
+              />
+              <p className="greeting">Hey there!</p>
+              <div className="homeContent">
+                <p> My name is Netra Pradhan and welcome to my website! 
+                    I am a sophomore at Purdue University studying Computer 
+                    Science. I am passionate about learning and trying new 
+                    things that push me out of my comfort zone. 
+                    Additionally, I am always looking for new opportunities 
+                    to learn and grow as a person and a professional in 
+                    computer science related fields. Feel free to get to 
+                    know me more or reach out to get in touch!
+                    </p>
+              </div>
+            </div>
+          } />
         </Switch>
 
         <div className="footer">

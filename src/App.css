@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 .App {
     text-align: center;
@@ -166,3 +167,51 @@ and (max-device-width : 667px){
     margin-top: 20px;
   }
 } 
+
+
+
+.Home{
+  height: 100%;
+  padding-bottom: 9%;
+}
+  .greeting{
+    font-size: 65px;
+    font-family: 'Dancing Script', cursive;
+    margin: 8px;
+    font-weight: 600;
+    color: rgb(29,63,82)
+  }
+  .homeNetra{
+    margin-top: 25px;
+    width: 45%;
+    height: 40%;
+    border: white solid;
+    border-width: 10px;
+  }
+  .homeContent{
+    width: 50%;
+    margin: auto;
+    font-size: 23px;
+    background-color: rgba(255, 255, 255, 0.795);
+    padding: 1px 10px;
+    color: rgb(29,63,82);
+    border:rgb(191, 192, 199) dotted;
+  }
+  @media (max-width: 915px) {
+    .homeNetra{
+      width: 80%;
+    }
+    .homeContent{
+      width: 80%;
+    }
+  }
+  @media only screen 
+  and (min-device-width : 375px) 
+  and (max-device-width : 667px){ 
+    .homeNetra{
+      width: 80%;
+    }
+    .homeContent{
+      width: 80%;
+    }
+  }
