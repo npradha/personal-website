@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 .Contact{
+    margin-top: 0px;
     height: 100%; 
      padding-bottom: 12%;
     width: 100%;
@@ -27,7 +28,7 @@
     margin-right: 5px;
 }
 .form{
-    width: 450px;
+    width: 350px;
     font-size: 16px;
     /* background: #495C70; */
     padding: 30px 30px 15px 30px;
@@ -38,10 +39,12 @@
 }
 input{
    height: 30px;
-   width: 30%;
-   margin-bottom: 10px;
+   width: 20%;
+   margin-bottom: 5px;
    border-radius: 25px;
    padding: 8px 15px;
+   border-style: solid;
+   border-width: 1px;
 }
 
 input:focus{
@@ -50,10 +53,13 @@ input:focus{
 
 textarea{
     height: 100px;
-   width: 30%;
+   width: 25%;
    margin-bottom: 10px;
    border-radius: 25px; 
    padding: 8px 15px;
+}
+p{
+    margin-bottom: 10px;
 }
 .send{
     height: 60px;
@@ -82,4 +88,8 @@ and (max-device-width : 667px){
     .title{
         font-size: 50px;
     }
+}
+
+.label{
+    float: left;
 }

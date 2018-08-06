@@ -21,7 +21,7 @@ class Contact extends Component {
 
       <form action="email.php" method="POST">
         <p>Name</p> 
-          <input type="text" name="name" placeholder="Your Name"/>
+          <input type="text" name="name"/>
         <p>Email</p> 
          <input type="text" name="email"/>
         <p>Message</p>
