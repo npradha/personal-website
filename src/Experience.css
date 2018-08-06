@@ -174,17 +174,22 @@ input.read-more-state ~ label.read-more-trigger:before {
 .awardHalf{
     float: right;
     width: 50%;
+    margin-right: 10px;
 }
 .newTitle{
     font-size: 45px;
    text-decoration: underline;
 }
+
 h2{
     display: inline;
     font-weight:900; 
     color:  rgb(23, 54, 71);
 }
 @media (max-width: 915px) {
+    .newTitle{
+        text-decoration: none;
+    }
     .experience{
         padding-bottom: 10%;
     }
@@ -198,7 +203,7 @@ h2{
         grid-template-rows: repeat(3,1fr);
         grid-auto-rows: 22%;
         grid-gap: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right:20px;
         background-color:none;
         color: rgb(29,63,82);
