@@ -74,7 +74,7 @@ button{
         padding-bottom: 20%;
     }
     .title{
-        font-size: 50px;
+        font-size: 48px;
     }
     
 
@@ -87,7 +87,7 @@ and (max-device-width : 667px){
         padding-bottom: 20%;
     }
     .title{
-        font-size: 50px;
+        font-size: 48px;
     }
     input{
         width: 30%;

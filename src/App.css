@@ -162,7 +162,7 @@
 and (min-device-width : 375px) 
 and (max-device-width : 667px){
   .App-title{
-    font-size: 275%;
+    font-size: 340%;
     margin-top: 20px;
   }
 } 
