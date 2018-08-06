@@ -7,7 +7,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="Contact">
-      <p className="title">Let's get in touch woot!</p>
+      <p className="title">Let's get in touch!</p>
       <p className="msgInfo">If you have any questions, comments, or want to schedule a coffee chat, send me a message!</p>
        {/* <form method="POST" action="https://formspree.io/bhs.pradhann@gmail.com">
         <input type="text" name="nameuser" placeholder="Your name"/><br></br>

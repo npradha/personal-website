@@ -251,7 +251,7 @@ and (max-device-width : 667px){
         grid-template-rows: repeat(3,1fr);
         grid-auto-rows: 22%;
         grid-gap: 20px;
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right:20px;
         background-color:none;
         color: rgb(29,63,82);

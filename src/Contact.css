@@ -76,6 +76,7 @@ button{
     .title{
         font-size: 50px;
     }
+    
 
 }
 
@@ -87,6 +88,12 @@ and (max-device-width : 667px){
     }
     .title{
         font-size: 50px;
+    }
+    input{
+        width: 15%;
+    }
+    textarea{
+        width: 20%;
     }
 }
 
