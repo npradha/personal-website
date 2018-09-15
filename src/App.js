@@ -59,9 +59,9 @@ class App extends Component {
         <div className="footer">
 
           <div className="media">
-            <a href={'https://www.facebook.com/netra.pradhan'} target="_blank">
+            {/* <a href={'https://www.facebook.com/netra.pradhan'} target="_blank">
               <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/facebook.png')} alt="facebook"/>
-            </a>
+            </a> */}
             <a href={'https://www.instagram.com/netra_pradhan'} target="_blank">
               <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/insta.png')} alt="instagram"/>
             </a>

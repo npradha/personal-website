@@ -15,7 +15,9 @@
     padding-bottom: 287px;
     width: 100%;
   }
-
+.resume{
+    position: relative;
+}
 .expTitle{
     width: 100%;
     font-size: 75px;

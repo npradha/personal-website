@@ -7,10 +7,11 @@ class Experience extends Component {
     return (
       <div className="experience">
         <p className="expTitle bigTitle">experience</p>
-        <a href={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/NetraPradhanResume.pdf')} target="_blank">
+          <a href={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/NetraPradhanResume.pdf')} target="_blank">
               <img className="logo" src={require('/Users/netrapradhan/personalWebsite/personal-website/src/imgs/file.png')} alt="facebook"/>
-        </a>
-          
+          </a>
+  
+        
           {/* <div className="expInfo">
             <input className="read-more-state" id="read-more-controller" type="checkbox"/>
                 <div className="read-more-wrap">
