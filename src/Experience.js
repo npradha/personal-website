@@ -166,7 +166,7 @@ class Experience extends Component {
             </div>
             <div className="extra">
               <p className="expTitle newTitle">extracurriculars</p>
-              <div className="activities">
+              <div className="activities fontSmaller">
                   <h2>Delta Mu Kappa--Professional Entrepreneurship Fraternity</h2>
                   <br></br>
                   <br></br>
@@ -189,7 +189,7 @@ class Experience extends Component {
 
             <p className="expTitle newTitle">awards+honors</p>
             <div className="awardHalf">
-            <h2>Certificate in Entrepreneurship & Innovation--Student Spotlight:       
+            <h2 className="fontSmaller">Certificate in Entrepreneurship & Innovation--Student Spotlight:       
               <a className="entr" href={"https://www.purdue.edu/entr/netrapradhan/"} target="_blank"> link </a></h2>
             <br></br>
             <br></br> 

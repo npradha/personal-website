@@ -200,6 +200,13 @@ h2{
     font-weight:900; 
     color:  rgb(23, 54, 71);
 }
+@media(max-width: 1024px) {
+  h2{
+      font-size: 20px;
+  }  
+
+}
+
 @media (max-width: 915px) {
     .newTitle{
         text-decoration: none;
