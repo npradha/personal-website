@@ -20,7 +20,8 @@ class Home extends Component {
          <div className="homeContent">
             <p> My name is Netra Pradhan and welcome to my website! 
                 I am a sophomore at Purdue University studying Computer 
-                Science. I am passionate about learning and trying new 
+                Science with minors in Math, Biometrics and Entrepreneurship.
+                I am passionate about learning and trying new 
                 things that push me out of my comfort zone. 
                 Additionally, I am always looking for new opportunities 
                 to learn and grow as a person and a professional in 

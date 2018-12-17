@@ -49,7 +49,7 @@
     color: rgb(29,63,82);
     border:rgb(191, 192, 199) dotted;
     border-radius: 10%;
-    height: 100%;
+    height: fit-content;
     width: 90%;
 
 }
@@ -122,7 +122,7 @@ input.read-more-state ~ label.read-more-trigger:before {
       grid-template-rows:repeat(5,1fr); 
       grid-auto-rows: 22%;
       grid-gap: 20px;
-      width: 50%;
+      /* width: 50%; */
       margin: 0 auto;
     }
   .skill{
@@ -171,18 +171,30 @@ input.read-more-state ~ label.read-more-trigger:before {
 }
 .skillHalf{
     float:left;
-    width: 50%;
+    width: 33%;
+}
+.extra{
+    width: 33%;
+    float: left;
 }
 .awardHalf{
-    float: right;
-    width: 50%;
+    /* float: right; */
+    float: left;
+    width: 33%;
     /* margin-right: 10px; */
 }
 .newTitle{
     font-size: 45px;
    text-decoration: underline;
 }
+.entr{
+text-decoration: underline;
+color: rgb(29,63,82);
 
+}
+a:hover{
+    color: rgb(116, 28, 42);
+}
 h2{
     display: inline;
     font-weight:900; 
@@ -224,6 +236,13 @@ h2{
     }
     .expTitle{
         margin-top: 30px;
+    }
+    .extra{
+        float: none;
+        width: 85%;
+        margin-top: 10px;
+        padding-bottom: 0;
+        margin: 0 auto;
     }
     .awardHalf{
         float:none;
@@ -276,6 +295,13 @@ and (max-device-width : 667px){
     }
     .bigTitle{
         margin-top: 15px;
+    }
+    .extra{
+        float: none;
+        width: 85%;
+        margin-top: 10px;
+        padding-bottom: 0;
+        margin: 0 auto;
     }
     .awardHalf{
         float:none;

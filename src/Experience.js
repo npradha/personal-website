@@ -164,9 +164,35 @@ class Experience extends Component {
                 </div>
               </div>
             </div>
+            <div className="extra">
+              <p className="expTitle newTitle">extracurriculars</p>
+              <div className="activities">
+                  <h2>Delta Mu Kappa--Professional Entrepreneurship Fraternity</h2>
+                  <br></br>
+                  <br></br>
+                  <h2>TEDxPurdueU Communications Team</h2>
+                  <br></br>
+                  <br></br>
+                  <h2>CS 193 Tools Teaching Assistant</h2>
+                  <br></br>
+                  <br></br>
+                  <h2>Global Science Partner</h2>
+                  <br></br>
+                  <br></br>
+                  <h2>Purdue South Asian Student Alliance</h2>
+                 </div>
+              </div>
+
+
+
+
+
             <p className="expTitle newTitle">awards+honors</p>
             <div className="awardHalf">
-            
+            <h2>Certificate in Entrepreneurship & Innovation--Student Spotlight:       
+              <a className="entr" href={"https://www.purdue.edu/entr/netrapradhan/"} target="_blank"> link </a></h2>
+            <br></br>
+            <br></br> 
             <h2>NCWIT Aspirations in Computing--Arkansas Affiliate Winner</h2>
             <br></br>
             <br></br>
